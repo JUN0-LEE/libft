@@ -22,32 +22,32 @@
 - ft_isprint
 
 ## str_manipulate function
-- ft_strrchr.c
-- ft_strcmp.c
-- ft_strlcat.c
-- ft_strsplit.c
-- ft_strncpy.c
-- ft_striter.c
-- ft_strstr.c
-- ft_strdel.c
-- ft_strcpy.c
-- ft_strdup.c
-- ft_striteri.c
-- ft_strmap.c
-- ft_strnstr.c
-- ft_strlen.c
-- ft_strsub.c
-- ft_strnew.c
-- ft_strncat.c
-- ft_strncmp.c
-- ft_strtrim.c
-- ft_strequ.c
-- ft_strcat.c
-- ft_strnequ.c
-- ft_strjoin.c
-- ft_strclr.c
-- ft_strmapi.c
-- ft_strchr.c
+- ft_strrchr
+- ft_strcmp
+- ft_strlcat
+- ft_strsplit
+- ft_strncpy
+- ft_striter
+- ft_strstr
+- ft_strdel
+- ft_strcpy
+- ft_strdup
+- ft_striteri
+- ft_strmap
+- ft_strnstr
+- ft_strlen
+- ft_strsub
+- ft_strnew
+- ft_strncat
+- ft_strncmp
+- ft_strtrim
+- ft_strequ
+- ft_strcat
+- ft_strnequ
+- ft_strjoin
+- ft_strclr
+- ft_strmapi
+- ft_strchr
 
 ## linked_list function
 - ft_lstmap
@@ -76,15 +76,4 @@
 - ft_atoi
 
 ## ft_printf function
-- conversion_u
-- conversion_i
 - ft_printf
-- globalfunc
-- itoa
-- flag
-- conversion_p
-- conversion_x
-- conversion_pcnt
-- conversion_c
-- conversion_s
-- conversion_o
