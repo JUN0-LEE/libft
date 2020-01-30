@@ -1,6 +1,9 @@
 # libft
 
-## put_something function
+My custom static C library<br>
+
+## put_something function:
+Print something out to standard output or file descriptor.
 - ft_putstr
 - ft_putnbr
 - ft_putunichar
@@ -14,6 +17,7 @@
 - ft_intmax_putnbr
 
 ## is_something function
+Check if character is space, digit, alphabet ... et cetera.
 - ft_isspace
 - ft_isdigit
 - ft_isalnum
@@ -22,6 +26,7 @@
 - ft_isprint
 
 ## str_manipulate function
+Function to manipulate strings.
 - ft_strrchr
 - ft_strcmp
 - ft_strlcat
@@ -50,6 +55,7 @@
 - ft_strchr
 
 ## linked_list function
+Generic linked list management functions.
 - ft_lstmap
 - ft_lstadd
 - ft_lstiter
@@ -58,6 +64,7 @@
 - ft_lstdel
 
 ## memory function
+Functions to manipulate memory.
 - ft_memcpy
 - ft_memmove
 - ft_memccpy
@@ -69,6 +76,7 @@
 - ft_memset
 
 ## to_something function
+From some data type to another data type.
 - ft_toupper
 - ft_itoa
 - ft_itoa_base
@@ -76,6 +84,7 @@
 - ft_atoi
 
 ## ft_printf function
+Partial implementation of C library function printf.
 - ft_printf
 
 ## another_tool
