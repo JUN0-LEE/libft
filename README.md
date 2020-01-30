@@ -2,7 +2,7 @@
 
 My custom static C library<br>
 
-## put_something function:
+### put_something function:
 Print something out to standard output or file descriptor.
 - ft_putstr
 - ft_putnbr
@@ -16,7 +16,7 @@ Print something out to standard output or file descriptor.
 - ft_putchar_fd
 - ft_intmax_putnbr
 
-## is_something function
+### is_something function
 Check if character is space, digit, alphabet ... et cetera.
 - ft_isspace
 - ft_isdigit
@@ -25,7 +25,7 @@ Check if character is space, digit, alphabet ... et cetera.
 - ft_isalpha
 - ft_isprint
 
-## str_manipulate function
+### str_manipulate function
 Function to manipulate strings.
 - ft_strrchr
 - ft_strcmp
@@ -54,7 +54,7 @@ Function to manipulate strings.
 - ft_strmapi
 - ft_strchr
 
-## linked_list function
+### linked_list function
 Generic linked list management functions.
 - ft_lstmap
 - ft_lstadd
@@ -75,7 +75,7 @@ Functions to manipulate memory.
 - ft_memcmp
 - ft_memset
 
-## to_something function
+### to_something function
 From some data type to another data type.
 - ft_toupper
 - ft_itoa
@@ -83,10 +83,10 @@ From some data type to another data type.
 - ft_tolower
 - ft_atoi
 
-## ft_printf function
+### ft_printf function
 Partial implementation of C library function printf.
 - ft_printf
 
-## another_tool
+### another_tool
 - get_next_line
 - swap
