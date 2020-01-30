@@ -77,3 +77,7 @@
 
 ## ft_printf function
 - ft_printf
+
+## another_tool
+- get_next_line
+- swap
