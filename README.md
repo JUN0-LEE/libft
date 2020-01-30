@@ -1,6 +1,6 @@
-# libft
+# LIBFT
 
-My custom static C library<br>
+My custom static C library project<br>
 
 ### put_something function:
 Print something out to standard output or file descriptor.
