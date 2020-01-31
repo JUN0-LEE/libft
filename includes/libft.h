@@ -6,7 +6,7 @@
 /*   By: julee <marvin@42.fr>                       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/07/10 15:53:24 by julee             #+#    #+#             */
-/*   Updated: 2019/03/06 12:28:39 by julee            ###   ########.fr       */
+/*   Updated: 2020/01/30 23:39:58 by julee            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -68,7 +68,6 @@ typedef struct	s_vec
 	size_t		capacity;
 	size_t		current;
 }				t_vec;
-
 
 int				ft_tolower		(int c);
 int				ft_toupper		(int c);
@@ -139,31 +138,31 @@ char			*ft_itoa_base(int n, int base);
 void			ft_intmax_putnbr(intmax_t nbr);
 
 int				get_next_line(int fd, char **line);
-void    		ft_swap(void *a, void *b, size_t size);
+void			ft_swap(void *a, void *b, size_t size);
 
-t_stack *		stack_init(void);
+t_stack			*stack_init(void);
 void			stack_pop(t_stack *stack);
-void 			stack_push(t_stack *stack, void *content);
-void *			top(t_stack *stack);
-int 			is_empty_stack(t_stack *stack);
+void			stack_push(t_stack *stack, void *content);
+void			*top(t_stack *stack);
+int				is_empty_stack(t_stack *stack);
 int				stack_size(t_stack *stack);
 
-t_queue *		queue_init(void);
-void 			queue_push(t_queue *queue, void *content);
+t_queue			*queue_init(void);
+void			queue_push(t_queue *queue, void *content);
 void			queue_pop(t_queue *queue);
-void *			queue_front(t_queue *queue);
-int 			is_empty_queue(t_queue *queue);
+void			*queue_front(t_queue *queue);
+int				is_empty_queue(t_queue *queue);
 int				queue_size(t_queue *queue);
 
-t_deque *		deque_init(void);
-void 			deque_push_front(t_deque *deque, void *content);
-void 			deque_push_back(t_deque *deque, void *content);
+t_deque			*deque_init(void);
+void			deque_push_front(t_deque *deque, void *content);
+void			deque_push_back(t_deque *deque, void *content);
 void			deque_pop_front(t_deque *deque);
 void			deque_pop_back(t_deque *deque);
-void *			deque_front(t_deque *deque);
-void *			deque_back(t_deque *deque);
-int 			is_empty_deque(t_deque *deque);
-void *			deque_at(t_deque *deque, int pos);
+void			*deque_front(t_deque *deque);
+void			*deque_back(t_deque *deque);
+int				is_empty_deque(t_deque *deque);
+void			*deque_at(t_deque *deque, int pos);
 int				deque_size(t_deque *deque);
 
 #endif

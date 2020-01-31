@@ -6,21 +6,28 @@
 #    By: julee <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/09 23:10:05 by julee             #+#    #+#              #
-#    Updated: 2018/09/25 21:51:54 by julee            ###   ########.fr        #
+#    Updated: 2020/01/30 23:39:24 by julee            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
+
+CC := gcc
+
+CFLAGS := -Wall -Wextra -Werror
 
 NAME = libft.a
 
 SRC := $(shell find src -name "*.c") 
 
-INC = includes/*.h
+INC = $(shell find includes -name "*.h")
 
 OBJ = $(SRC:.c=.o)
 
 $(NAME): $(OBJ) $(INC)
-	@ar -rc libft.a $(OBJ) $(PFOBJ)
+	@ar -rc libft.a $(OBJ)
 	@ranlib libft.a
+
+$(OBJ): %.o : %.c $(INC)
+	$(CC) -c -o $@ $< $(CFLAGS)
 
 .PHONY: clean fclean all re
 
