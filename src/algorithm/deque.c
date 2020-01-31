@@ -89,6 +89,25 @@ int 			is_empty_deque(t_deque *deque)
     return false;
 }
 
+void *			deque_at(t_deque *deque, int pos)
+{
+    int     i;
+    t_dlist  *node;
+
+    if (is_empty_deque(deque))
+        return (0);
+    if (deque_size(deque) <= pos || pos < 0)
+        return (0);
+    i = 0;
+    node = deque->first;
+    while (i != pos)
+    {
+        node = node->next;
+        i++;
+    }
+    return (node);
+}
+
 int				deque_size(t_deque *deque)
 {
     int     size;

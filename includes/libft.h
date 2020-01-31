@@ -62,6 +62,13 @@ typedef struct	s_deque
 	t_dlist		*last;
 }				t_deque;
 
+typedef struct	s_vec
+{
+	void		*contents;
+	size_t		capacity;
+	size_t		current;
+}				t_vec;
+
 
 int				ft_tolower		(int c);
 int				ft_toupper		(int c);
@@ -156,6 +163,7 @@ void			deque_pop_back(t_deque *deque);
 void *			deque_front(t_deque *deque);
 void *			deque_back(t_deque *deque);
 int 			is_empty_deque(t_deque *deque);
+void *			deque_at(t_deque *deque, int pos);
 int				deque_size(t_deque *deque);
 
 #endif
