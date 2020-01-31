@@ -90,3 +90,8 @@ Partial implementation of C library function printf.
 ### another_tool
 - get_next_line
 - swap
+
+### algorithm
+- stack
+- queue
+- deque
