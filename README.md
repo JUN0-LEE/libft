@@ -63,7 +63,7 @@ Generic linked list management functions.
 - ft_lstnew
 - ft_lstdel
 
-## memory function
+### memory function
 Functions to manipulate memory.
 - ft_memcpy
 - ft_memmove
