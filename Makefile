@@ -6,7 +6,7 @@
 #    By: julee <marvin@42.fr>                       +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/07/09 23:10:05 by julee             #+#    #+#              #
-#    Updated: 2020/01/31 13:18:34 by julee            ###   ########.fr        #
+#    Updated: 2020/01/31 13:22:01 by julee            ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -14,13 +14,13 @@ CC := gcc
 
 CFLAGS := -Wall -Wextra -Werror
 
-NAME = libft.a
+NAME := libft.a
 
 SRC := $(shell find src -name "*.c") 
 
-INC = $(shell find includes -name "*.h")
+INC := $(shell find includes -name "*.h")
 
-OBJ = $(SRC:.c=.o)
+OBJ := $(SRC:.c=.o)
 
 $(NAME): $(OBJ) $(INC)
 	@ar -rc libft.a $(OBJ)
