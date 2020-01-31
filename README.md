@@ -63,7 +63,7 @@ Generic linked list management functions.
 - ft_lstnew
 - ft_lstdel
 
-## memory function
+### memory function
 Functions to manipulate memory.
 - ft_memcpy
 - ft_memmove
@@ -90,3 +90,8 @@ Partial implementation of C library function printf.
 ### another_tool
 - get_next_line
 - swap
+
+### algorithm
+- stack
+- queue
+- deque
